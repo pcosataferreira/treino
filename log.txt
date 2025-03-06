@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 history:
 
 git config --global user.name "Pedro"
@@ -36,3 +37,7 @@ git status
 git add log.txt
 git push origin nome-da-nova-branch
 git push origin novo-branch
+=======
+123
+Alteração feita na branch nova-feature.
+>>>>>>> cd4ae913e64edc9dc0c329888a36be7087b118fa
