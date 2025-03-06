@@ -1,1 +1,38 @@
-123
+history:
+
+git config --global user.name "Pedro"
+git config --global user.email "pcostaferreira@sapo.pt"
+git config --global --list
+mkdir git-treino
+cd git-treino
+git init
+echo "# Repositório Git Treino" > README.md
+git add README.md
+git commit -m "Primeiro commit"
+git push -u origin main
+git branch
+git branch -M main
+git branch
+git add README.md
+git commit -m "Primeiro commit"
+git push -u origin main
+git clone https://github.com/pcosataferreira/treino.git
+cd treino
+echo "Este é um ficheiro de log." > log.txt
+git add log.txt
+git status
+git commit -m "Atualizado log.txt com novas informações"
+git push origin main
+git checkout -b nova-feature
+git branch
+git status
+git add log.txt
+git status
+git commit -m "Alteração feita na branch nova-feature"
+git push origin nova-feature
+git checkout -b novo-branch
+git branch
+git status
+git add log.txt
+git push origin nome-da-nova-branch
+git push origin novo-branch
